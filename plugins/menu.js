@@ -23,13 +23,13 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     let totalreg = Object.keys(global.DATABASE._data.users).length
     let tags = {
       'main': 'Main',
-      'info': 'Info BOT',
+      'info': 'Info Bot',
       'xp': 'Exp & Limit',
       'sticker': 'Sticker',
       'kerang': 'Kerang Ajaib',
       'quotes': 'Quotes',
-      'admin': 'Admin',
-      'group': 'Group',
+      'admin': 'Adm',
+      'group': 'Gropo',
       'internet': 'Internet',
       'downloader': 'Downloader',
       'tools': 'Tools',
