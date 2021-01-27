@@ -15,7 +15,7 @@ Link: https://wa.me/${m.sender.split`@`[0]}
     conn.sendFile(m.chat, pp, 'pp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }
 }
-handler.help = ['profile']
+handler.help = ['perfil']
 handler.tags = ['tools']
 handler.command = /^perfil$/i
 module.exports = handler
