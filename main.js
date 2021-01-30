@@ -21,7 +21,7 @@ global.DATABASE = new (require('./lib/database'))(opts._[0] ? opts._[0] + '_' : 
 if (!global.DATABASE.data.users) global.DATABASE.data = {
   users: {},
   groups: {},
-  chats: {3},
+  chats: {},
 }
 if (!global.DATABASE.data.groups) global.DATABASE.data.groups = {}
 if (!global.DATABASE.data.chats) global.DATABASE.data.chats = {}
