@@ -66,13 +66,13 @@ conn.handler = async function (m) {
         else global.DATABASE._data.users[m.sender].exp = 0
         if (typeof global.DATABASE._data.users[m.sender].limit != 'number' ||
           isNaN(global.DATABASE._data.users[m.sender].limit)
-        ) global.DATABASE._data.users[m.sender].limit = 10
+        ) global.DATABASE._data.users[m.sender].limit = 1
         if (typeof global.DATABASE._data.users[m.sender].lastclaim != 'number' ||
           isNaN(global.DATABASE._data.users[m.sender].lastclaim)
         ) global.DATABASE._data.users[m.sender].lastclaim = 0
       } else global.DATABASE._data.users[m.sender] = {
         exp: 0,
-        limit: 10,
+        limit: 1,
         lastclaim: 0,
       }
       if (global.DATABASE._data.chats[m.chat]) {
