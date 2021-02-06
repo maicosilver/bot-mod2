@@ -1,5 +1,7 @@
 
-Simple WhatsApp Bot
+Simple WhatsApp Bot:
+Youtube: DrawlNag 
+Github: Arya274/Arya-DN 
 
 ### FOR TERMUX USER
 ```bash
