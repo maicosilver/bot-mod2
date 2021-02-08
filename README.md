@@ -1,3 +1,4 @@
+1°
 
 Simple WhatsApp Bot:
 
